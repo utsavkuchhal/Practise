@@ -2,7 +2,7 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
-	  font-family: sans-serif;
+	  font-family: "Inter", sans-serif;
 
 }
 
@@ -100,41 +100,49 @@ a{
 	margin-top: 120px;
 	padding-left: 45px;
 }
-
-.second{
-	width: 100%;
-	height: 142px;
+/*----------------------------------------------------------------carousel Section----------------------------------------------------*/
+.carousel {
+    width: 70.5%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    height: 65px;
+    margin: auto;
+    border-style: solid;
+  	border-width: 2px;
+  	border-image: radial-gradient( rgba(192, 204, 218, 0.6),rgba(192, 204, 218, 0.1)) 1;
+  	border-left: hidden;
+  	border-right: hidden;
 }
 
-.container2{
-	display: flex;
-	justify-content: space-around;
-	margin-top: auto;
-	margin-bottom: auto;
-	align-items: center;
-	height: 108px;
+.owl-carousel {
+    padding-left: 30px;
 }
 
-.top-line{
-	margin-top: 16px;
-	width: 77%;
-	margin-left: auto;
-	margin-right: auto;
-	height: 1px;
-	background-color: black;
+.owl-prev {
+    position: relative;
+    float: left;
+    top: -40px;
+    left: -81px;
 }
 
-.bottom-line{
-	margin-bottom: 16px;
-	width: 77%;
-	margin-left: auto;
-	margin-right: auto;
-	height: 1px;
-	background-color: black;
+.owl-next {
+    position: relative;
+    float: right;
+    top: -40px;
+    right: -81px;
+}
+
+.arrow-boy{
+	opacity: 0;
+}
+.feature-box{
+    height: 28px;
+    width: 90px;
 }
 
 
-/*Third Div*/
+
+/*----------------------------------------------------------------3rd Section----------------------------------------------------*/
 .container3 h2 {
   text-align: center;
   font-size: 48px;
@@ -222,7 +230,6 @@ a{
   margin-top: -64px;
   font-size: 48px;
   margin-left: 32%;
-    font-family: sans-serif;
     z-index: 1;
 
 }
@@ -233,7 +240,6 @@ a{
   line-height: 32px;
   color: #18191f;
   margin-left: 32%;
-  font-family: sans-serif;
 }
 
 .hubspot{
@@ -273,7 +279,6 @@ a{
   font-size: 18px;
   line-height: 32px;
   display: inline-block;
-  font-family: sans-serif;
   overflow: hidden;
   margin-top: -16px;
   margin-left: 20%;
@@ -284,7 +289,6 @@ a{
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
-  font-family: sans-serif;
   margin-left: 20%;
   margin-top: 24px;
 }
@@ -438,7 +442,7 @@ a{
 }
 
 .phone-background {
-  background-image: url("images/BG.jpg");
+  background-image: url("images/BG.svg");
   height: 540px;
   width: 75%;
   border-radius: 8px;
@@ -484,7 +488,6 @@ a{
 
 .footer-col a{
 	color: white;
-	font-family: sans-serif;
 }
 
 .footer-col img{
@@ -533,9 +536,12 @@ a{
 
 .get-app{
 	font-weight: 500;
-	font-family: sans-serif;
 	font-size: 18px;
 	line-height: 28px;
 	color: #D9DBE1;
 	margin-right: 42px
+}
+
+#right-arrow{
+	margin-left: 9px;
 }

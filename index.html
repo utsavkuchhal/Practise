@@ -1,8 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JTG Assignment</title>
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800;600&family=Rubik:wght@300;800&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
 	<!-- first container --> 
@@ -48,12 +60,10 @@
 	</div>
 	<!-- first container -->
 	<!-- Second div -->
-    <div class="second">
+    <div class="second carousel">
         <!-- Feature box -->
-        <hr class="top-line">  
-        <div class="container2 carousel-top">
-          <div class="feature-box">
-            <img src="images/Vector-1.svg" alt="left arrow" />
+        <div class="carousel-top owl-carousel owl-theme">
+          <div class="feature-box arrow-boy">
           </div>
 
           <div class="feature-box">
@@ -80,11 +90,10 @@
             <img src="images/FedEx-Logo.svg" alt="FedEx logo" />
           </div>
 
-          <div class="feature-box">
+       <!--    <div class="feature-box">
             <img src="images/Vector.svg" alt="right arrow" />
-        </div>
+        </div> -->
       </div>
-      <hr class="bottom-line">  
     </div>
     <!-- Second div -->
 
@@ -274,7 +283,7 @@
             egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non.
             Non commodo volutpat, pharetra, vel.
           </p>
-          <label style="color: #8c30f5">Get started  <img src="images/rightarrow.png" alt=""></label>
+          <label style="color: #8c30f5">Get started  <img src="images/rightarrow.svg" id="right-arrow" alt=""></label>
           </div>
         </div>
     </div>
@@ -313,5 +322,8 @@
             </div>
           </div>
     </div>
+   <script src="owlcarousel/jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
